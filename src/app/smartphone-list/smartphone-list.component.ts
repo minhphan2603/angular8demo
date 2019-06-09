@@ -8,7 +8,7 @@ import {SmartphoneData} from '../../assets/smartphone-data'
 })
 export class SmartphoneListComponent implements OnInit {
 
-  public SmartphoneData: Object[] = SmartphoneData;
+  public SmartphoneData = SmartphoneData;
 
   constructor() { }
 

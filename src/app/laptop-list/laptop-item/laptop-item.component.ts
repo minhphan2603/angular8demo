@@ -8,7 +8,11 @@ import { isNgTemplate } from '@angular/compiler';
 })
 export class LaptopItemComponent implements OnInit {
 
-  @Input() item;
+  @Input() item: {
+    img: string,
+    name: string,
+    desc: string
+  };
   constructor() { }
 
   ngOnInit() {

@@ -8,7 +8,7 @@ import {LaptopData} from '../../assets/laptop-data.js';
 })
 export class LaptopListComponent implements OnInit {
 
-  public LaptopData: Object[] = LaptopData;
+  public LaptopData = LaptopData;
   constructor() { }
 
   ngOnInit() {
